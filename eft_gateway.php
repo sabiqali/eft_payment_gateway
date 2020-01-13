@@ -1,7 +1,7 @@
 <?php
 /*
- * Plugin Name: WooCommerce Misha Payment Gateway
- * Plugin URI: https://rudrastyh.com/woocommerce/payment-gateway-plugin.html
+ * Plugin Name: WooCommerce EFT Payment Gateway
+ * Plugin URI: https://github.com/sabiqali/eft_payment_gateway
  * Description: Take EFT payments from your store.
  * Author: Sabiq Chaudhary
  * Author URI: http://github.com/sabiqali
@@ -169,20 +169,20 @@ function eft_payment_init_gateway_class() {
 		/*
 		 * Custom CSS and JS, in most cases required only when you decided to go with a custom credit card form
 		 */
-	 	public function payment_scripts() {
+	 	/*public function payment_scripts() {
  
 		...
  
-	 	}
+	 	}*/
  
 		/*
  		 * Fields validation, more in Step 5
 		 */
-		public function validate_fields() {
+		/*public function validate_fields() {
  
 		...
  
-		}
+		}*/
  
 		/*
 		 * We're processing the payments here, everything about it is in Step 5
